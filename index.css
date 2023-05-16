@@ -1,3 +1,11 @@
 h1 {
-    
+
 }
+
+head {
+    background-image: url("images/raindrops.jpg");
+    background-size: cover; 
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background: cover no-repeat url("images/raindrops.jpg");
+  }
