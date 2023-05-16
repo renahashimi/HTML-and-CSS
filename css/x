@@ -1,9 +1,0 @@
-/* HOME */
-
-
-position: relative;
-width: 1512px;
-height: 1741px;
-overflow-y: scroll;
-
-background: #FFFFFF;
