@@ -4,28 +4,68 @@ body {
     margin: auto;
     padding: auto;
     }
-    
+
+
+nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
 nav li {
     list-style: none;
     text-decoration: none;
-    margin-right: 40px;
 }
     
+nav a {
+    text-decoration: none;
+    list-style: none;
+
+}
 nav a:hover {
     text-decoration: none;
     list-style: none;
 }
-
-    
 h1 {
-    display: block;
-    float: left;
-    font-size: 70px;
-    background-color: #fff; 
+    list-style: none;
+    text-decoration: none;
 }
 
+    
 
+/*Index & Start*/
 
+.background {
+    position: fixed;
+    background-image: url('/images/raindrops.jpg');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.press {
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #0A3641;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.logo1 {
+    display: block;
+    width: 260px;
+    margin-top: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+}
 
 /*Home*/
 
@@ -37,53 +77,56 @@ h1 {
     background-color: #fff;
     background-repeat: repeat;
     background-size: cover;
+    border-bottom: 5px solid #0A3641;
+    box-sizing: border-box;
     background-image: url(/images/woods.jpg);
     background-position: 100%;
 }
 
 
-nav a {
-    display: block;
-    color: #fff;
-    text-decoration: none;  
-}
-
-nav ul {
-    list-style: none;
-    color: #fff;
-    text-decoration: dashed;
-
-}
-
-
 .woman {
-    font-size: 50px;
-    border:#fff solid 5px;
+    display: block;
+    border: 5px solid #fff;
+    box-sizing: border-box;
     color: #fff;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    margin-top: 40px;
+    margin: auto;
     padding: 30px;
-    width: 250px;
-    float: left;
-    list-style: none;
-    margin-top: 30px;
-    
-  
-
-    
+    text-align: center;
+   
 }
 
 .men {
-    font-size: 50px;
+    display: block;
+    border: 5px solid #fff;
+    box-sizing: border-box;
     color: #fff;
-    border: solid 5px;
-    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: 50px;
+    margin-top: 30px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 30px;
-    width: 250px;
-    float: left;
-    list-style: none;
-    margin-top: 20px;
+    text-align: center;
+
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+ }
 
 
 /*About us*/
@@ -152,8 +195,8 @@ nav ul {
     margin-left: 30px;
     margin-top: 10px;
     font-size: 16px;
-    
 }
+
 .line2 {
     display: block;
     border: 3px solid; 
@@ -174,10 +217,19 @@ nav ul {
 
 /*WOMAN&MEN*/
 
+.headlogo {
+    display: block;
+    width: 90px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
 .line1 {
     display:  block;
     border: 3px solid #0A3641; 
-    margin-top: auto;
+    margin-top: 10px;
 }
 
 .site {
@@ -208,19 +260,18 @@ nav ul {
     font-size: 15px;
     margin-top: 80px;
 }
+
 .shop {
     width: 200px;
     height: 300px;
     margin: 15px;
     margin-top: 80px;
-    border: 1px solid #4;
+    border: 1px solid #fff;
     box-sizing: border-box;
 }
+
 .shop h2 {
     font-size: 20px;
-}
-.span {
-    float: right;
 }
 
 .shop span {
@@ -236,9 +287,8 @@ nav ul {
     background-repeat: no-repeat;
     justify-items: center;
     margin: 2px;
-
-
 }
+
 .bn {
     border: 1px solid #0A3641;
     box-sizing: border-box;
@@ -250,7 +300,13 @@ nav ul {
     text-align: center;
     text-decoration: none;
     margin-top: 3px;
-    
+}
+
+.line5 {
+    display: block;
+    border: 3px solid; 
+    border-color: #0A3641;
+    margin-top: 40px;
 }
 
 .bn a {
@@ -285,12 +341,6 @@ nav ul {
 
 
 
-
-
-
-
-
-
 @media (min-width: 200px) {
     .img4 {
         min-width: 350px;
@@ -304,11 +354,21 @@ nav ul {
 }
 @media (min-width: 550px) and (max-width: 800px) {
     
+    
+    .press {
+        font-size: 2em;
+        height: auto;
+    }
+    .logo1 {
+        min-width: 400px;
+        height: auto;
+    }
+    
     .img4 {
         min-width: 600px;
         height: auto;
-        
     }
+
     .site { 
         font-size: 3em;
     }
@@ -348,12 +408,25 @@ nav ul {
     img {
         min-width: 250px;
         max-width: 300px;
-    }        
+    }      
+    .headlogo {
+        max-width: 130px;
+        margin-top: 30px;
+    }  
 
 }
 
 @media (min-width: 800px) and (max-width: 900px) {
   
+    .logo1 {
+        min-width: 400px;
+        height: auto;
+    }
+    .press {
+        font-size: 2em;
+        height: auto;
+    }
+    
     .img4 {
         min-width: 700px;
         height: auto;
@@ -397,7 +470,19 @@ nav ul {
 }
    
 @media (min-width: 900px) {
-   .img4 {
+    
+    
+    .press {
+        font-size: 3em;
+        height: auto;
+    }
+    
+    .logo1 {
+        min-width: 700px;
+        height: auto;
+    }
+   
+    .img4 {
         min-width: 1400px;
         float: right;
         height: auto;
@@ -448,39 +533,35 @@ nav ul {
     .container1 { 
         width: 100%;
         height: auto;
-        justify-content: center;
-    
     }
     .shop {
         width: 350px;
         height: 400px;
-        margin: 300px;
-       
-
-    
+        margin: 200px;
+        margin-left: 200px;
     }
     .shop h2 {
         font-size: 30px;
     }
-    .span {
-        float: right;
-    }
-    
+
     .shop span {
-        float: right;
         font-size: 30px;
     }
     .shop-image {
         width: 500px;
         height: 400px;
-    
-    
-    
     }
     .bn {
         width: 350px;
         height: 65px;
         font-size: 50px;
+    }
+    .headlogo {
+        max-width: 100px;
+        margin: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
     }
     
 }
