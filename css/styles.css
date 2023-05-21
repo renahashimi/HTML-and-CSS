@@ -18,6 +18,9 @@ nav a:hover {
     
 h1 {
     display: block;
+    float: left;
+    font-size: 70px;
+    background-color: #fff; 
 }
 
 
@@ -26,33 +29,44 @@ h1 {
 /*Home*/
 
 .background1 {
+    display: flex;
     background: scroll;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    height: 500px;
+    object-fit: fill;
     background-color: #fff;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-image: url(/images/woods.jpg);
-    background-position: 50%;
-    border: solid 10px #fff;
-
+    background-position: 100%;
 }
+
 
 nav a {
     display: block;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: none;  
+}
+
+nav ul {
     list-style: none;
     color: #fff;
-    
+    text-decoration: dashed;
+
 }
 
 
 .woman {
     font-size: 50px;
     border:#fff solid 5px;
+    color: #fff;
     text-align: center;
     padding: 30px;
+    width: 250px;
+    float: left;
+    list-style: none;
+    margin-top: 30px;
+    
+  
 
     
 }
@@ -64,45 +78,48 @@ nav a {
     border: solid 5px;
     text-align: center;
     padding: 30px;
-    margin-top: 10px;
-
-   
+    width: 250px;
+    float: left;
+    list-style: none;
+    margin-top: 20px;
 }
 
 
 
 /*About us*/
 
-nav a {
-
-}
-
 .line1 {
-    display: block;
+    display:  block;
     border: 3px solid; 
     border-color: #0A3641;
-    margin: auto;
- }
-
-
+    margin-top: auto;
+}
+.aboutus {
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    color: #0A3641;
+  
+}
 .img4 {
     display: block;
-    flex-shrink: 2;
-    max-width: 400px;
-    float: right;
+    position: relative;
+    width: 250px;
     max-height: 100%;
     margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 40px;
 }
+
 
 .p1 {
     display: block;
+    color: #0A3641;
     margin-left: 40px;
     margin-top: 50px;
     margin-right: 40px;
-    line-height: 150%;
+    line-height: 1.5em;
     position: relative;
     font-size: 24px;
     font-style: italic;
@@ -110,10 +127,11 @@ nav a {
 
 .p2 {
     display: block;
+    color: #0A3641;
     margin-left: 40px;
     margin-top: 40px;
     margin-right: 40px;
-    line-height: 150%;
+    line-height: 1.5em;
     position: relative;
     font-size: 24px;
     font-style: italic;
@@ -121,11 +139,12 @@ nav a {
 
 .p3 {
     display: block;
+    color: #0A3641;
     font-weight: bold;
     font-size: 30px;
     margin-left: 40px;
     margin-right: 40px;
-    margin-top: 10px;
+    margin-top: 50px;
     position: relative;
     font-style: normal;
 }
@@ -139,7 +158,7 @@ nav a {
 }
 
 .line3 {
-    display: flex;
+    display: block;
     border: 6px solid; 
     border-color: #0A3641;
     margin-top: 0.5rem;
@@ -150,13 +169,14 @@ nav a {
     width: 180px;
     float: left;
     margin-left: 30px;
-    margin-top: 180px;
+    margin-top: 100px;
 }
 
 .p4 {
     display: block;
+    color: #0A3641;
     margin-left: 40px;
-    margin-top: 290px;
+    margin-top: 210px;
     font-size: 20px;
     position: absolute;
 }
@@ -164,50 +184,190 @@ nav a {
     display: block;
     border: 3px solid; 
     border-color: #0A3641;
-    margin-top: 350px;
+    margin-top: 300px;
 }
 
 .line3 {
-    display: flex;
+    display: block;
     border: 6px solid; 
     border-color: #0A3641;
     margin-top: 0.5rem;
 }
 
-æ@media (max-width: 200px) {
-    .img4 {
-        max-width: 50px;
-        height: auto;
 
-    }
+ 
+
+
+/*WOMAN&MEN*/
+
+img {
+    width: 120px;
+    margin: 10px;
+    position: relative;
+    margin-left: 30px;
+    flex-shrink: 2;
 }
 
-@media (min-width: 600px) {
+
+
+.line5 {
+    display: block;
+    border: 3px solid; 
+    border-color: #0A3641;
+}
+
+
+
+
+
+@media (min-width: 200px) {
+    .img4 {
+        min-width: 350px;
+        height: auto;
+        
+    }
+    .woman {
+        width: 200px;
+    }
+   
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    
     .img4 {
         min-width: 600px;
         height: auto;
+        
     }
-   
+    .woman {
+        width: 200px;
+    }
+    .line1 {
+        margin-top: 20px;
+    }
+    .p1 {
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .p2 {
+        font-size: 2rem;
+    }
+    .p3 {
+        font-size: 2rem;
+    }
+    .logo4 {
+        margin-bottom: 3rem;
+    }
+    .p4 {
+        font-size: 2rem;
+        margin-top: 15rem;
+    }
+    .line2 {
+        margin-top: 20rem;
+    }
     
 
-   
-}
-
-@media (min-width: 950) {
-    .img4 
-    {
-        max-width: 1000px;
-        float: right;
-    }
-    .p1 + .p2 {
-        font-size: 30 px;
-    }
-    .p3{
-        margin-right: 400px;
+    .aboutus {
         font-size: 40px;
     }
-    
-    
+    img {
+        min-width: 250px;
+        max-width: 300px;
+    }        
 
+}
 
+@media (min-width: 800px) and (max-width: 900px) {
+  
+    .img4 {
+        min-width: 700px;
+        height: auto;
+    }
+    .line1 {
+        margin-top: 20px;
+    }
+    .p1 {
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .p2 {
+        font-size: 3rem;
+    }
+    .p3 {
+        font-size: 3rem;
+    }
+    .line1 {
+        margin-top: 20px;
+    }
+    .aboutus {
+        font-size: 50px;
+    }
+    img {
+        min-width: 250px;
+        max-width: 300px;
+    }    
+    .p4 {
+        font-size: 2rem;
+        margin-top: 17rem;
+    }
+    .line2 {
+        margin-top: 25rem;
+    }
+        
+
+}
+   
+
+@media (min-width: 900px) {
+   .img4 {
+        min-width: 1400px;
+        float: right;
+        height: auto;
+        margin-top: 20px;
+        border: #0A3641 solid 10px;
+        border-style: 3px 40px 3px 40px;
+        box-sizing: border-box;
+    }
+    .line1 {
+        margin-top: 20px;
+    }
+    .aboutus {
+        font-size: 8rem;
+    }
+    .p1 {
+        font-size: 4rem;
+        margin-top: 6em;
+        
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    .p2 {
+        font-size: 4rem;
+    }
+    .p3 {
+        font-size: 4rem;
+    }
+    .line1 {
+        margin-top: 20px;
+    }
+    img {
+        min-width: 300px;
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+   
+    .p4 {
+        font-size: 2rem;
+        margin-top: 17rem;
+        margin-left: 50px;
+    }
+    .line2 {
+        margin-top: 25rem;
+    }
+ 
 }
