@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CHECKOUT</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/e2e07e46bd.js" crossorigin="anonymous"></script>  
+</head>
+
+<body>
+<header>
+  <div>
+    <input type="button" id="back" onclick="history.go(-1);"> 
+    <label for="back"><i class="fa-solid fa-arrow-left fa-2x" style="color: #0a3641;"></i></label>
+  </div> 
+  <div>
+    <img class="headlogo" src="images/logo.png" alt="Logo">
+  </div>
+  <div>
+    <input type="checkbox" id="menu-chechbox" />
+    <label class="hide" for="menu-chechbox"><i class="fa fa-bars fa-2x" style="color: #0a3641;"></i>
+    </label> 
+     <nav class="nav1">
+        <a href="index.html">Home</a>
+        <a href="woman.html">Woman</a>
+        <a href="men.html">Men</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About us</a>
+     </nav>   
+    </div>
+    <div>
+      <nav>
+        <a class="bag" href="cart.html"><i class="fa-solid fa-bag-shopping fa-2x" style="color: #0a3641;"></i></a>
+     </nav>
+    </div>
+  </header>
+  <main>
+    <div class="line1"></div>
+    <h1 class="ch-name">just one step away</h1>
+    <div class="line1"></div>
+  <div class="content4">
+    <div class="box3">
+      <h2 class="os">order summary</h2>
+      <div class=container6><img class="ch-img" src="images/Jacket/flora.jpg" alt="image-checkout">
+      <div>
+       <div class="ch-text1">
+         <p>Item: Flora<span>$199,00</span></p>
+         <p>Size: M</p>
+       </div>
+       <div class="ch-text2">
+         <p>Shipping <span>$4,99</span></p>
+       </div>
+       <div class="ch-st">sub total <span>$203,99</span>
+      </div>
+     </div>
+    </div>
+   </div>
+    <div class="box4">
+    <h3 class="bi-text">Billing Information</h3>
+     <div class="container7">
+      <form class="ch-form">      
+        <input type="text" id="" class=name1 placeholder="Full name" required> 
+        <input type="text" id="" class=address1 placeholder="Address"  required>     
+        <div class="sec2">
+        <input type="number" id="" class=code1 placeholder="Postal code"  required>
+        <input type="text" id="" class=city1 placeholder="City"  required>
+     </div>
+    </div>
+   </form>
+  </div>
+
+   <div class="box5">
+    <h3 class="bi-text">Creditcard Information</h3>
+     <div class="container8">
+      <form class="ch-form2">      
+        <input type="number" id="" class=creditnr placeholder="Creditcard Information" required> 
+        <div class="sec3">
+        <input type="number" id="" class=mount placeholder="Mount"  required>     
+        <input type="number" id="" class=year placeholder="Year"  required>
+        <input type="number" id="" class=cvv placeholder="cvv"  required>
+       </div>
+      </form>
+     </div>
+   </div>
+   
+      <div class="ch-form3"> 
+        <div class="w-a"><p>We Accept</p></div>
+      <div class="pay-logo">
+        <div class="content5"><i class="fa-brands fa-cc-visa" style="color: #0a3641;"></i></div>
+        <div class="content5"><i class="fa-brands fa-cc-mastercard" style="color: #0a3641;"></i></div>
+        <div class="content5"><i class="fa-brands fa-cc-amex" style="color: #0a3641;"></i></div>
+        <div class="content5"><i class="fa-brands fa-cc-paypal" style="color: #0a3641;"></i></div>
+  
+     
+       <div><button class="ch-button" type="submit"><a href="checkout.html">CHECKOUT</a></button></div>
+      </div> 
+     </div>
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  
+</body>
+</html>

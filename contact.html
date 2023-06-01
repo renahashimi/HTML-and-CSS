@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>CART</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,36 +13,69 @@
     <div>
       <input type="button" id="back" onclick="history.go(-1);"> 
       <label for="back"><i class="fa-solid fa-arrow-left fa-2x" style="color: #0a3641;"></i></label>
+    </div> 
+    <div>
+      <img class="headlogo" src="images/logo.png" alt="Logo">
     </div>
-    <img class="headlogo" src="images/logo.png">
-    <input type="checkbox" id="menu-chechbox" />
+    <div>
+      <input type="checkbox" id="menu-chechbox" />
       <label class="hide" for="menu-chechbox"><i class="fa fa-bars fa-2x" style="color: #0a3641;"></i>
-      </label>
-      <nav>
-        <ul>
+      </label> 
+       <nav class="nav1">
           <a href="index.html">Home</a>
           <a href="woman.html">Woman</a>
           <a href="men.html">Men</a>
           <a href="contact.html">Contact</a>
           <a href="about.html">About us</a>
-        </ul>
-      </nav>    
-  </header>
+       </nav>   
+      </div>
+      <div>
+        <nav>
+          <a class="bag" href="cart.html"><i class="fa-solid fa-bag-shopping fa-2x" style="color: #0a3641;"></i></a>
+       </nav>
+      </div>
+    </header>
      <main>
-       <h1>SHIPPING FEE</h1>
-         <p>$ 4,99</p>
+      <div class="line1"></div>
+
+    
+      <div>
+       <h1 class="c-name">shipping fee</h1>
+         <div class="shipping"><p>$ 4,99</p>
          <p>2-5 business days</p>
-         <p>Free shipping over $ 300</p>
-       <h2>HELP & CONTACT</h2>
-        
-       
-       <p></p>
-
-
-       <h3>CONTACT US</h3>
-
-
-
+         <p class="p-bold">Free shipping over $ 300</p></div>
+         <div class="line1"></div>
+       <h2 class="c-name">help & contact</h2>
+        <div class="container4">
+          <div class="content2"><i class="fa-solid fa-location-dot fa-2x" style="color:#0a3641;"></i>
+          <p>Oslovei 1</p>
+          <p>1234 Oslo</p>
+          </div>
+          <div class="content2"><i class="fa-solid fa-phone fa-2x" style="color: #0a3641;"></i>
+          <p>+47 99887766</p></div>
+          <div class="content2"><i class="fa-solid fa-envelope fa-2x" style="color: #0a3641;"></i>
+          <p>contact@rainydays.com</p></div> 
+        </div>
+      </div>
+    </div>
+       <div class="line1"></div> 
+       <h3 class="c-name">contact us</h3>
+       <div class="container5">
+       <form class="c-form">      
+          <input type="text" id="" class=name placeholder="Full name" required> 
+          <input type="email" id="" class=email placeholder="Email"  required>        
+          <input type="text" id="" class=phone placeholder="Phone"  required>
+          <textarea id="message" rows="6" placeholder="Write your message her"></textarea>
+          <button class="m-button" type="submit">Send Message</button>
+      </form>
+       </div>
+       <div class="medialogo">
+        <div class="content3"><i class="fa-brands fa-square-instagram" style="color: #0a3641;"></i></div>
+        <div class="content3"><i class="fa-brands fa-square-facebook" style="color: #0a3641;"></i></div>
+        <div class="content3"><i class="fa-brands fa-square-twitter" style="color: #0a3641;"></i></div>
+      </div>
+      <p class="logoname">@rainydays</p>
+      <div class="line1"></div> 
      </main>
      <footer>
 

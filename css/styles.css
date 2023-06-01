@@ -2,7 +2,8 @@
 body {  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
-    padding: auto;
+    padding:  0 10px;
+
     }
 
 
@@ -36,71 +37,71 @@ h1 {
     text-align: center;
 }
 
+h2, h3, h4 a {
+    text-decoration: none;
+    list-style: none;
+}
+
 /*Header*/
 
 header {
-    display: grid; 
-    position: relative;
+    display: grid;
     grid-template-columns: auto auto;
-    grid-row: auto auto;
+    grid-template-rows: auto auto;
 }  
 
 .headlogo {
-    max-width: 100px;
+    display: flex;
+    max-width: 150px;
     height: auto;
-    margin: auto;
-    margin-top: auto;
-    margin-right: 20px; 
-
+    margin: 15px;
+    float: right;
 }
 
-
-.headlogo1 {
-    visibility: hidden;
-    max-width: 100px;
-    height: auto;
-    margin: auto;
-    margin-top: auto;
-    margin-right: 20px; 
-}
  
-
-
-nav header {
+.nav1 header {
     background: #FFF;
-    border: 1px solid #0A3641;
-    width: 21px;
+    width: 20px;
     line-height: 1.5; 
 }
 
-button, #back, nav, #menu-chechbox {
+#back, .nav1, #menu-chechbox {
     display: none;
 }
 
 #menu-chechbox:checked ~ nav {
     display: block;
     float: left;
-    line-height: 1.5;
-    margin-left: 27px;
+    line-height: 2;
+    margin-left: 20px;
+}
+.nav1 a:hover {
+    text-decoration: underline; 
 }
 
-nav a {
+.nav1 a {
     display: block;
     color: #0A3641;
     font-size: 24px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 label {
     display: flex;
     position: relative;
-    margin: 30px;
-    margin-bottom: 5px;
+    justify-content: flex-start;
+    margin: 20px;
+    padding: 0%;
 }
 
 
+.bag {
+    display: flex;
+    position: relative;
+    margin: 20px;
+    float: right;
+}
 
-    
 
 /*Index & Start*/
 
@@ -140,18 +141,6 @@ label {
 
 /*Home*/
 
-.lineO {
-    display:  block;
-    border: 1px solid #0A3641; 
-    margin-top: 10px;
-}
-
-.lineU {
-    display: block;
-    border: 3px solid; 
-    border-color: #0A3641;
-    margin-top: a
-}
 
 .background1 {
     display: block;
@@ -190,6 +179,7 @@ label {
     background: linear-gradient(360deg, #0A3641, #FFF);
     -webkit-text-fill-color: #0A3641;
     -webkit-text-stroke-width: 1px;
+    
 }
 
 .woman, .men {
@@ -204,8 +194,7 @@ label {
     text-align: center;
     font-weight: bolder;
     -webkit-text-fill-color: #0A3641;
-    -webkit-text-stroke-width: 1px;
-    
+    -webkit-text-stroke-width: 1px; 
  }   
 
 
@@ -497,11 +486,6 @@ label {
     color: #0A3641;
 }
 
-input {
-    scale: 2; 
-    margin: 18px;
-   
-}
 
 form { 
     display: flex;
@@ -510,8 +494,271 @@ form {
 
 
 
+/*Contact*/
 
 
+.c-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0A3641;
+}
+
+.shipping {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #0A3641;
+}
+
+.p-bold { 
+    font-weight: bold;
+}
+
+.container4 {
+    display: block;
+    color: #0A3641;
+    text-align: center;
+}
+
+.content2 {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.container5 {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0A3641;
+    margin: auto;
+}
+
+.c-form {
+    flex-direction: column;
+    width: 95%;
+    padding: 15px;
+
+}
+
+.name, .email, .phone {
+    display: block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    background-color: #fff;
+    color: #0A3641;
+    margin: 10px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #0A3641;
+}
+
+form textarea {
+    font-size: 16px;
+    width: 80%;
+    outline: none;
+    justify-content: center;
+    margin: 10px;
+    border: 1px solid #0A3641;
+}
+
+.m-button {
+    font-size: 20px;
+    background-color: #0A3641;
+    color: #fff;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.medialogo {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.content3 {
+    margin: 10px;
+    padding: 20px;
+    scale: 3;
+
+}
+.logoname {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Chechout*/
+
+.ch-name {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+}
+
+.os, .bi-text {
+    display: block;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container6 {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-sizing: border-box;
+    border: 1px solid #0A3641;
+    color: #0A3641;
+    flex-grow: 3;
+}
+
+.ch-img {
+    min-width: 100px;
+    height: 120px;
+    border: #0A3641;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.box3 {
+    margin-bottom: 30px;
+}
+.box4 .bi-text {
+    margin: 10px;
+}
+
+.ch-text1 {
+    width: 160px;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+
+}
+.ch-text2 {
+    width: 160px;
+    padding: 5px;
+    
+}
+
+.ch-st {
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #e8e9ea;
+
+}
+
+.ch-text1 span, .ch-text2 span, .ch-st span {
+    float: right;
+}
+
+.container7, .container8 {
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #0A3641;
+}
+
+.ch-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #0A3641;
+    width: 100%;
+}
+
+.name1, .address1 {
+    width: 250px;
+    margin: 10px;
+    background-color: #d9d9d9;
+}
+
+.city1, .code1 {
+    position: relative;
+    width: 110px;
+    margin: 10px;
+    flex-direction: column;
+    background-color: #d9d9d9;
+}
+
+.ch-form2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #0A3641;
+    width: 100%;
+}
+
+.creditnr {
+    width: 250px;
+    margin: 10px;
+    background-color: #d9d9d9;
+}
+
+.mount, .year, .cvv {
+    position: relative;
+    width: 62px;
+    margin: 10px;
+    flex-direction: column;
+    background-color: #d9d9d9;
+}
+
+.ch-form3 {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay-logo {
+    display: flex;
+    border: 2px solid #0A3641;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.content5 {
+    margin: 5px;
+    padding: 3px;
+    scale: 1.5;
+}
+
+.w-a {
+    font-size: 14px;
+}
+
+.ch-button {
+    background-color: #0A3641;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.ch-button a {
+    text-decoration: none;
+    list-style: none;
+    color: #fff; 
+}
 
 /*MEDIA*/
 
@@ -524,8 +771,10 @@ form {
     }
 }
 @media only screen and (min-width: 600px) and (max-width: 800px) {
-    
-    /*All html*/
+
+
+
+/*All html*/
 
     h1 {
         text-align: left;
@@ -539,18 +788,16 @@ form {
 /*Header*/    
 
 
+    header {
+        display: grid;
+    }
+    
     .headlogo {
         min-width: 120px;
         height: auto;
         margin-top: 20px;
     }
-
-
-    header {
-  
-    }
-
-  
+    
 
 
 /*Index & Home*/  
@@ -649,7 +896,7 @@ form {
     }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 900px) {
+@media only screen and (min-width: 750px) and (max-width: 900px) {
 
  /*All html*/
 
@@ -803,6 +1050,14 @@ form {
     .bn {
        width: 100px;
     }
+
+/*Chechout*/
+    
+    .content4 {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
 }
 
    
@@ -826,63 +1081,49 @@ form {
 /*Header*/ 
     
     header {
-        display: grid;
-        grid-columns: 1fr 2fr;
-        grid-rows: auto 1fr;
-        margin-bottom: -140px;
+       display: grid;
+       grid-template-columns: auto auto;
+       grid-template-rows: 1fr auto;
+       margin-top: 20px;
     }
-
-    .headlogo1 {
-        visibility: hidden;
-    }
-
-    .headlogo {
-        display: grid;
-        visibility: visible;
     
-        min-width: 150px;
+    .headlogo {
+        visibility: visible;
+        min-width: 180px;
         height: auto;
-        justify-content: right;
-       
+
     }
     .fa-solid {
-        scale: 1.5;
+        scale: 1;
     }
 
     .hide {
         display: none;
-        position: relative;
-        min-width: 150px;
-        height: auto;
-        float: left;
-        grid-row: 2;
     }
 
-    ul {
-        display: flex; 
-    }
-    
-    #menu-chechbox:checked ~ nav {
-        display: grid;
-        grid-row: 2;
-    }
-
-    nav {
+    .nav1 {
+        visibility: visible;
         display: flex;
         position: relative;
-        border: none;
-        width: 100px;
     }
 
-    a {
-        position: relative;
-        width: 150px;
-        margin: 5px;
-        text-align: left;
-        text-align: center;
+    .nav1 a {
+        width: auto;
+        height: 30px;
+        padding: 15px;
+        margin: 10px;
+        margin-left: -20px;
     }
-      
+
+    .nav1 a:hover {
+        text-decoration: underline;
+        background-color: #0A3641;
+        color: #FFF;
+        padding:2px;
     
+    }
+
+
 /*Index & Home*/
 
     .background1 {
@@ -927,40 +1168,41 @@ form {
 
     .container1 {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-row: 1fr 1fr;
-        grid-column: span 2;
-        width: 70%;
-        margin: auto;
+        width: 90%;
+        margin: 10px;
     }
     .shop {
-        width: 400px;
+        flex-wrap: wrap;
+        width: 250px;
         height: auto; 
-       
+        margin: 10px;
+        flex-grow: 2;
     }
 
     .shop-image {
         width: 90%;
-        height: 400px;
+        height: 300px;
         align-items: center;
-       
-
     }
     .shop p {
-        font-size: 40px;
+        font-size: 25px;
     }
     
     .shop span {
         float: right;
-        font-size: 40px;
+        font-size: 28px;
         font-weight: bold;
     }
 
     .bn {
-       width: 300px;
-       height: 60px;
-       font-size: 45px;
+       width: 210px;
+       height: 45px;
+       font-size: 30px;
+       margin: 10px;
        font-weight: bold;
+       
     }
     
 
@@ -1050,11 +1292,11 @@ form {
     }
        
     .price {
-        font-size: 50px;
+        font-size: 70px;
         font-weight: bold;
         margin: 30px;
         margin-left: 30px;
-        margin-bottom: 300px;
+        margin-bottom: 200px;
         text-align: right;
     }
 
@@ -1068,24 +1310,25 @@ form {
         font-size: 50px;
         width: auto; 
         height: auto;
-       
+        padding: 10px;
+
     }
 
     .atc {
         min-width: 500px; 
-        height: auto;
+        height: 80px;
         text-align: center;  
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
-    input {
+    .size input {
         scale: 4;
     }
 
     .sizes {
         font-size: 60px;
         font-weight: 400;
-        margin: 20px;
+        margin: 30px;
     }
    
 
