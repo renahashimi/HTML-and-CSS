@@ -969,6 +969,11 @@ form textarea {
         display: none;
     }
 
+    .nav1 {
+        display: flex;
+    }
+    
+
 
     
     .nav1 ul {
@@ -1188,6 +1193,7 @@ form textarea {
     .container5 {
         border: none;
     }
+
     
 
 
