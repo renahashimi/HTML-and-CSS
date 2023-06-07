@@ -52,6 +52,7 @@ h2, h3, h4  {
     font-size: 1.5em;
 }
 
+
 /*Header*/
 
 header {
@@ -75,8 +76,8 @@ header {
 #menu-chechbox:checked ~ nav {
     background-color: #fff;
     display: flex;
+    width: 152px;
     position: absolute;
-    width: 150px;
     float: left;
     line-height: 2;
     padding: 0;  
@@ -87,7 +88,6 @@ header {
 }
 
 .nav1 li {
-    display: flex;
     font-size: 1em;
     border: 1px solid #0A3641;
     width: 150px;
@@ -99,12 +99,11 @@ header {
 }
 
 .nav1 ul {
-    
+    display: block;
 }
 
 label {
     display: flex;
-    position: relative;
     margin: 10px;
     padding: 0%;
 }
@@ -119,7 +118,6 @@ label {
 
 
 
-
 /*Index & Home*/
 
 .container-x {
@@ -130,8 +128,6 @@ label {
 
 .content-x {
     display: flex;
-    position: relative;
-   
     margin: auto; 
     justify-content: center;
 }
@@ -164,7 +160,7 @@ label {
 .woman a, .men a {
     font-size: 2.5em;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
     color: #fff;
     -webkit-text-fill-color: #0A3641;
     -webkit-text-stroke-width: 3px;
@@ -180,8 +176,8 @@ label {
 
 .na-x {
     border-style: none;
-
 }
+
 
 /*About us*/
 
@@ -461,37 +457,6 @@ form {
     display: flex;
 }   
 
-.size3 {
-    display: block;
-    background-color: #fff;
-    position: absolute;
-    width: 100px;
-
-    line-height: 2;
-    margin-left: 0;
-    padding: 0;
-}
-
-.size3 li {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #fff;
-    color: #0A3641;
-    border: 1px solid #0A3641;
-    margin: 20px;
-    padding: 10px;
-    font-size: 60px;
-    text-align: center;
-    align-items: center;
-    cursor: pointer;
-    font-weight: 900;
-}
-
-.size3 li:hover{
-   color: aqua;
-}
 
 
 /*Contact*/
@@ -608,6 +573,7 @@ form textarea {
     text-align: center;
 }
 
+
 /*Checkout*/
 
 .ch-name {
@@ -627,7 +593,6 @@ form textarea {
     display: flex;
     width: 300px;
     height: 200px;
-    position: relative;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -861,6 +826,58 @@ form textarea {
 }
 
 
+/*My account*/
+
+.mah1 {
+    border: none;
+    font-size: 2.5em;
+    text-align: left;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.ma-form {
+    display: block;
+    width: 100%;
+    color: #0A3641;
+    font-weight: 400;
+}
+
+.email-ma, .password-ma, .email-ma2 {
+    display: block;
+    margin: 30px;
+    width: 60%;
+    height: 20px;
+    font-weight: 700;
+}
+
+.ma-p1, .ma-p2 {
+    margin-left: 30px;
+    font-size: 1em;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.ma-p2 {
+    margin-top: 20px;
+}
+
+.m-a-button {
+    margin: 0px 30px 20px;
+    background-color: #fff;
+    font-size: 1.5em;
+}
+
+.ma-join {
+    margin-left: 30px;
+}
+
+.ma-form2 {
+    display: block;
+    color: #0A3641;
+}
+
+
 /*Footer*/
     
 
@@ -869,7 +886,7 @@ form textarea {
     width: 100%;
     height: 100%;
     font-size: 0.7em;
-    margin: 10px 5px 0; 
+    margin: 10px 0px; 
     justify-content: space-evenly;
 }
 
@@ -877,6 +894,7 @@ form textarea {
     display: flex;
     flex-direction: column;
     width: 25%;
+    font-size: 1em;
 }
 
 .foot1 p {
@@ -885,7 +903,7 @@ form textarea {
 
 .foot-x {
     text-transform: uppercase;
-    font-weight: 700; 
+    font-weight: 600; 
     padding: 0 0 10px 0;
 }
 
@@ -893,19 +911,19 @@ form textarea {
 .footlogo {
     display: block;
     float: right;
-    width: 70px;  
+    width: 60px;  
     margin-right: 10px;
 }
 
 .logos {    
     display: block;
-    width: 25%;
+    width: 23%;
 }
 
 .foot-logo {
     display: flex;
     flex-direction: row;
-    scale: 1.5;
+    scale: 1.3;
     float: right;
     margin-right: 10px;
     margin-top: 20px;
@@ -918,11 +936,12 @@ form textarea {
 
 .foot-lname {
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 600;
     float: right;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.2em;
     margin-top: -8px;
+    margin-right: 7px;
 }
 
 .line-end {
@@ -964,8 +983,13 @@ form textarea {
         margin-top: 20px;
     }
 
-    .nav1  {
-        font-size: 1em;
+    #menu-chechbox:checked ~ nav {
+        width: 180px;
+    }
+
+    .nav1 li  {
+        font-size: 1.5em;
+        width: 180px;
     }
     
 
@@ -1104,6 +1128,14 @@ form textarea {
     .nav1 a {
         font-size: 2em;
     }
+    #menu-chechbox:checked ~ nav {
+        width: 200px;
+    }
+
+    .nav1 li  {
+        font-size: 1em;
+        width: 200px;
+    }
 
 
  /*Index & Home*/
@@ -1111,7 +1143,7 @@ form textarea {
     
     .woman a, .men a {
         font-size: 3.5em;
-        padding: 20px;
+        padding: 10px;
         height: auto;
     }
 
@@ -1177,8 +1209,6 @@ form textarea {
     }
 
     
-
-
 /*Contact*/
 
 
@@ -1187,7 +1217,6 @@ form textarea {
     }
 
 
-  
 
 /*Product*/
 
@@ -1232,9 +1261,107 @@ form textarea {
         font-size: 1.2em;
     }
 
+    .container7 input, .container8 input {
+        font-size: 20px;
+    }
+
+    .name1, .address1, .creditnr  {
+        width: 310px;
+    }
+
+    .city1, .code1 {
+        width: 140px;
+    }
+
+    .mount, .year, .cvv {
+        width: 82px
+    }
+
+    .ch-button {
+        width: 220px;
+        font-size: 24px;
+    }
+
+
+
+/*Success*/
+    
+
+    .success1 {
+        display: block;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        color: #0A3641;
+        margin: auto;
+    }
+    
+    .ty {
+        font-size: 4em;
+    }
+    
+    .ty-p {
+        font-size: 2em;
+    }
+    
+    .summary {
+        font-size: 1.5em;
+    }
+    
+    .container9 {
+        display: flex;
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .container9 img {
+        display: block;
+        margin: auto;
+        justify-content: space-evenly;
+       
+       margin-top: 20px;
+    }
+    
+    .sum1, .sum2, .sum3 { 
+        display: block;
+        width: 25%;
+        margin: 0 10PX;
+        border: 1px solid #0A3641;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    
+    .sum1 p, .sum2 p, .sum3 p { 
+       text-align: center;
+    }
+    
+    
+    .returnbt {
+        margin-top: 40px;
+    }
+
+
+
+/*My account*/
+
+    .ma-container {
+        display: flex;
+
+    }
+
+
+    .email-ma, .password-ma, .email-ma2 {
+        width: 70%;
+        font-weight: 900;
+    }
+
+    .ma-p1, .ma-p2 {
+        font-size: 1.2em;
+    }
+
+    
 
 /*Footer*/
-
 
 
     .footer-x {
@@ -1245,18 +1372,18 @@ form textarea {
     }
 
     .footlogo {
-        width: 120px;
+        width: 100px;
         margin-bottom: 20px; 
-        margin-right: px;
+        margin-right: 15px;
     }
 
     .foot-logo {
-        scale: 2.6;
+        scale: 2.4;
         margin-right: 55px;
     }
 
     .foot-lname {
-        font-size: 1.2em;
+        font-size: 1.3em;
         margin-top: 2px;
         margin-right: 25px;
     }
@@ -1299,37 +1426,37 @@ form textarea {
 
     .hide {
         display: none;
-    }
-
+    } 
+    
     .nav1 {
-        display: flex;
+        display: block;
+        position: absolute;  
     }
 
     .nav1 li {
+        display: inline;
         border: none;
-        width: auto;
-        font-size: 1.5em;
+        font-size: 1.5em; 
     }
 
     .nav1 ul {
         visibility: visible;
-        display: flex;
-        position: relative; 
         border: none;
+        margin-top: 50px;
+        width: auto;
     }
     
     .nav1 a {
-        padding: 15px;
-        margin: 20px;
-        margin-left: -5px;
-       
+        margin-left: 15px; 
+        justify-content: space-evenly;
     }
 
     .nav1 a:hover {
-        font-weight: bolder;
+        font-weight: 700;
     }
-    
 
+   
+    
 
 /*Index & Home*/
   
@@ -1343,7 +1470,6 @@ form textarea {
         height: auto;
         margin: 20px;  
         padding: 30px;
-        border: px solid #fff;
         font-size: 1.2em;
     }   
 
@@ -1351,8 +1477,18 @@ form textarea {
         font-size: 1.5em;
     }
 
-    
+    .woman a, .men a {
+        font-size: 2.5em;
+        padding: 5px;
+        margin: 10px;
+        color: #fff;
+    }
 
+    .woman a, .men a {
+        font-size: 2.5em;
+        margin: 15px;
+        -webkit-text-stroke-width: 2px;
+    }
 
 /*Woman & Men*/   
 
@@ -1545,7 +1681,6 @@ form textarea {
  /*Checkout*/
  
  
- 
     .content4 {
         display: grid;
         grid-template-columns: auto auto;
@@ -1568,8 +1703,8 @@ form textarea {
     
     .ch-img {
         margin: 30px;
-        margin-left: 80px;
-        width: 180px;
+        margin-left: 100px;
+        width: 10px;
         height: auto;
     }
 
@@ -1609,17 +1744,106 @@ form textarea {
     .ch-button {
         width: 250px;
         font-size: 26px;
-
-
     }
+
+
+
+/*Success*/
+    
+
+    .success1 {
+        display: block;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        color: #0A3641;
+        margin: auto;
+    }
+    
+    .ty {
+        font-size: 4em;
+    }
+    
+    .ty-p {
+        font-size: 2em;
+    }
+    
+    .summary {
+        font-size: 1.8em;
+        margin-bottom: 90px;
+    }
+    
+    .container9 {
+        display: flex;
+        width: 100%;
+;
+    }
+    
+    .container9 img {
+        display: block;
+        margin: auto;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    .sum1, .sum2, .sum3 { 
+        display: block;
+        width: 33%;
+        margin: 0 10PX;
+        border: 1px solid #0A3641;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    
+    .sum1 p, .sum2 p, .sum3 p { 
+       text-align: center;
+    }
+    
+    .returnbt {
+        margin-top: 40px;
+    }
+    
+    
+/*My account*/
+    
+    .ma-form {
+        display: block;
+        border: 4px solid #0A3641;
+        margin: 40px auto;
+        padding: 10px 10px 30px;
+        width: 30%;
+        color: #0A3641;
+        font-weight: 500;
+    }
+
+    .ma-form2 {
+        display: flex;
+        margin-top: 40px;
+        color: #0A3641;
+        border: 4px solid #0A3641;
+        border-radius: 50px;
+        padding: 20px 30px;
+        width: 80%;
+        justify-content: center;
+    }
+
+    .ma-join {
+        width: 40%; 
+    }
+    
+    .email-ma2 {
+        width: 50%;
+    }
+    
+    
     
 /*Footer*/
 
 
-
     .footer-x {
-        margin: 10px;
+        margin: 2px; 
     }
+
     .foot1 {
         font-size: 1.8em;
     }
@@ -1628,6 +1852,7 @@ form textarea {
         width: 130px;
         margin-bottom: 20px; 
         margin-right: 30px;
+        margin-left: 150px;
     }
 
     .foot-logo {
@@ -1635,10 +1860,14 @@ form textarea {
         margin-right: 55px;
     }
 
+    .logos {
+        width: 5%;
+    }
+
     .foot-lname {
-        font-size: 1.2em;
+        font-size: 1.5em;
         margin-top: 2px;
-        margin-right: 25px;
+        margin-right: 20px;
     }
 
 
