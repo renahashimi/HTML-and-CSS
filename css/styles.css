@@ -931,7 +931,9 @@ form textarea {
     margin: 0px 30px 20px;
     background-color: #fff;
     color: #0A3641;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    border: 2px solid #0A3641;
+    box-sizing: border-box;
 }
 
 .ma-join {
