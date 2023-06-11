@@ -144,8 +144,7 @@ label {
 
 .woman, .men {
     display: flex;
-    border: 3px solid #fff;
-    box-shadow: 0 0 0 4px #0a3641;
+    border: 5px solid #fff;
     box-sizing: border-box;
     color: #0A3641;
     margin: 15px 0;
@@ -160,11 +159,12 @@ label {
     padding: 5px;
     margin: 20px;
     color: #fff;
-    -webkit-text-fill-color: #0A3641;
+    -webkit-text-fill-color: #fff;
     -webkit-text-stroke-width: 3px;
 }
 
 .sf p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2em;
     text-align: center;  
     font-style: italic;
@@ -930,6 +930,7 @@ form textarea {
 .m-a-button {
     margin: 0px 30px 20px;
     background-color: #fff;
+    color: #0A3641;
     font-size: 1.5em;
 }
 
