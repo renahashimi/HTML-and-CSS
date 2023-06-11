@@ -2,10 +2,24 @@
 
 
 
-My
+Assignment: HTML & CSS.
+
+I have created a website for Rainydays and it contains:
+-Index/Home
+-Woman
+-Men
+-My account
+-Product
+-Cart/Checkout
+-Successful checkout - Success
+-Contact
+-About us
+
+
 
 Kevin Powell
 
+At the bottom I attach links to my Figma prototypes, Github and Netlify
 
 -----
 GITHUB:

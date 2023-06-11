@@ -142,7 +142,7 @@ label {
     border: 3px solid #0A3641;
 }   
 
-.woman, .men {
+.women, .men {
     display: flex;
     border: 5px solid #fff;
     box-sizing: border-box;
@@ -154,7 +154,7 @@ label {
     font-weight: bold;
 }   
 
-.woman a, .men a {
+.women a, .men a {
     font-size: 2.5em;
     padding: 5px;
     margin: 20px;
@@ -303,7 +303,7 @@ label {
 
 
 
-/*Woman & Men*/
+/*Women & Men*/
 
 
 .site-name {
@@ -1066,7 +1066,7 @@ header {
 
 /*Index & Home*/  
     
-.woman a, .men a {
+.women a, .men a {
     font-size: 3em;
     padding: 20px;
     height: auto;
@@ -1124,7 +1124,7 @@ header {
 }
 
   
-/*Woman & Men*/
+/*Women & Men*/
    
 
 .container1 {
@@ -1287,7 +1287,7 @@ h1 {
 
  /*Index & Home*/
     
-.woman a, .men a {
+.women a, .men a {
     font-size: 3.5em;
     padding: 10px;
     height: auto;
@@ -1345,7 +1345,7 @@ h1 {
 }
 
     
-/*Woman & Men*/    
+/*Women & Men*/    
    
     .container1 {
         display: grid;
@@ -1628,7 +1628,7 @@ h1 {
     flex-direction: row;
 }
     
-.woman, .men {
+.women, .men {
     min-width: 350px;
     height: auto;
     margin: 20px;  
@@ -1640,14 +1640,14 @@ h1 {
     font-size: 1.5em;
 }
 
-.woman a, .men a {
+.women a, .men a {
     font-size: 2.5em;
     padding: 5px;
     margin: 10px;
     color: #fff;
 }
 
-.woman a, .men a {
+.women a, .men a {
     font-size: 2.5em;
     margin: 15px;
     -webkit-text-stroke-width: 2px;
@@ -1690,7 +1690,7 @@ h1 {
 
 
 
-/*Woman & Men*/   
+/*Women & Men*/   
 
 .container1 {
     display: grid;
@@ -2056,9 +2056,9 @@ font-size: 24px;
       
 /*Footer*/
 
-    footer { 
-        height: 250px;
-    }
+footer { 
+    height: 250px;
+}
 
     .footer-x {
         width: 90%;
