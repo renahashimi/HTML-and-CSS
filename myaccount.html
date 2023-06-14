@@ -4,6 +4,8 @@
     <title>MY ACCOUNT</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Rena Hashimi">
+    <meta name="description" content="Rainydays - My account"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/e2e07e46bd.js" crossorigin="anonymous"></script>  
@@ -39,25 +41,26 @@
           </div>
     </header>
     <main>
-      <div class="line1"></div>
+      <div class="line1"></div> 
+      <h1>MY ACCOUNT</h1>
       <div class="ma-container"> 
         <form class="ma-form">    
-          <h1 class="mah1">SIGN IN</h1>   
-            <input type="email" id="" class=email-ma placeholder="Email"  required>        
-            <input type="password" id="" class=password-ma placeholder="Password"  required>
+          <h2 class="mah1">SIGN IN</h2>   
+            <input type="email" id="email" class=email-ma placeholder="Email" autocomplete="on"  required>        
+            <input type="password" id="new-password" class=password-ma placeholder="Password"  required>
             <ul>
               <li class="ma-p1">Forgot password?</li>
             </ul>
             <button class="m-a-button" type="submit">LOGIN</button>
-            <p class="ma-p2">Don´t have an account?</p>
-            <button class="m-a-button" type="submit">SIGN UP</button>
+            <div><p class="ma-p2">Don´t have an account?</p>
+            <button class="m-a-button" type="submit">SIGN UP</button></div>
         </form>
       <div class="line1"></div>
         <form class="ma-form2">
-          <h2 class="ma-join">JOIN OUR NEWSLETTER 
-          FOR MORE RAINY´DAYS</h2>
-          <input type="email" id="" class=email-ma2 placeholder="Email"  required> 
-          <button class="m-a-button" type="submit">SUBSCRIBE</button>
+          <h3 class="ma-join">JOIN OUR NEWSLETTER 
+          FOR MORE RAINY´DAYS</h3>
+          <input type="email" id="email" class=email-ma2 placeholder="Email" autocomplete="on" required> 
+          <button class="m-a-button" id="button" type="submit">SUBSCRIBE</button>
         </form>
       </div>
     </div>

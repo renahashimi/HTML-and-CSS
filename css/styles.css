@@ -1,10 +1,10 @@
 
 body {  
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: auto;
-    padding:  0 10px;
-
-    }
+    margin: 0px;
+    padding:  0px 10px;
+    color: #0A3641;
+}
 
 ul {
     list-style: none;
@@ -59,6 +59,7 @@ header {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
+    margin: 10px auto;
 }  
 
 .headlogo {
@@ -132,7 +133,7 @@ label {
 
 .background1 {
     display: block;
-    background-image: url(/images/woods.jpg);
+    background-image: url(/images/other/woods.jpg);
     height: 450px;
     background-color: #fff;
     background-repeat: no-repeat;
@@ -199,7 +200,7 @@ label {
 }
 
 .na-nav2 {
-    border-image: linear-gradient(90deg, #dbdbdb,#0a3641) 30;
+    border-image: linear-gradient(90deg, #dbdbdb,#0a3641) 30;   
 }
 
 .na-img1 {
@@ -221,6 +222,7 @@ label {
     justify-content: center;
     letter-spacing: 0.2em;
 }
+
 .na-nav1 a, .na-nav2 a {
     text-decoration: none;
     list-style: none;
@@ -256,20 +258,19 @@ label {
     justify-content: center;
     align-items: center;
     background: #0A3641;
-    box-shadow: 10px 10px 10px #0A3641;
+    box-shadow: 10px 5px 10px #0A3641;
 }
 
 .p1 {
-    display: block;
     color: #0A3641;
     margin: 20px;
     line-height: 1.5em;
     font-size: 1.5em;
     font-style: italic;
+    margin: 10px 20px;
 }
 
 .p2 {
-    display: block;
     color: #0A3641;
     margin: 20px;
     line-height: 1.5em;
@@ -278,12 +279,15 @@ label {
 }
 
 .p3 {
-    display: block;
     color: #0A3641;
     font-weight: bold;
     font-size: 2em;
     margin: 20px;
     margin-top: 50px;
+}
+
+.ab-p {
+    display: block;
 }
 
 .logo4 {
@@ -302,9 +306,7 @@ label {
 }
 
 
-
 /*Women & Men*/
-
 
 .site-name {
     display: block;
@@ -421,7 +423,8 @@ label {
 .style1 {
     display: block;
     width: 100%;
-    margin: 0;
+    margin: auto;
+    justify-content: center;
 }
 
 .product1 {
@@ -502,18 +505,19 @@ label {
     align-items: center;
     font-size: 2em;
     margin: 30px auto;
-    scale: 1.2;
 }
 
 .size-x {
     border: 1px solid #0A3641;
     width: 30px;
-    justify-content: center;
+    justify-content: center;   
+    scale: 1.2;
 }
 
 .size-x:hover {
     font-weight: bolder;
     background-color: #0A3641;
+    border-inline: 2px solid #000;
     color: #fff;
     width: 30px;
     padding: auto;
@@ -646,7 +650,7 @@ form textarea {
 }
 
 
-/*Checkout*/
+/*Cart / Checkout*/
 
 .ch-name {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -729,6 +733,7 @@ form textarea {
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-shrink: 2;
     color: #0A3641;
     width: 100%;
 }
@@ -907,6 +912,11 @@ form textarea {
     margin-bottom: 60px;
 }
 
+.ma-form h2, .ma h3  {
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
 .ma-form {
     display: block;
     width: 100%;
@@ -961,9 +971,8 @@ footer {
 
 .footer-x {
     display: flex;
-    width: 100%;
-    height: 100%;
-    font-size: 0.7em;
+    height: 110%;
+    font-size: 0.8em;
     margin: 10px 0px; 
     justify-content: space-around;
 }
@@ -971,10 +980,13 @@ footer {
 .foot1 {
     width: 25%;
     font-size: 0.9em;
+    line-height: 1.2em;
+    font-weight: 400;
+    padding: 5px;
 }
 
 .foot1 p {
-    margin: 3px 0;
+    margin: 2px 0;
 }
 
 .foot-x {
@@ -987,6 +999,7 @@ footer {
     display: grid;
     grid-template-rows: auto;
     float: right;
+    justify-content: right;
 }
 
 .footlogo {
@@ -1002,7 +1015,7 @@ footer {
     scale: 1.4;
     float: right;
     margin: 10px;
-    padding: 3px;
+  
 }
 
 .foot-content {
@@ -1012,12 +1025,12 @@ footer {
 
 .foot-lname {
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 0.7em;
     font-weight: 600;
     float: right;
     letter-spacing: 0.2em;
     margin-right: 6px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .line-end {
@@ -1105,6 +1118,10 @@ header {
 
 
 /*About us*/
+
+.img4 {
+    background-image: url('/images/Other/greenjacket\ –\ medium.jpeg'); 
+}
     
 
 .p1, .p2 {
@@ -1186,8 +1203,8 @@ header {
     font-size: 1.4em;
 }
 
-.size {
-    scale: 1.5;
+.size-x {
+    scale: 1.4;
 }
 
     
@@ -1244,17 +1261,23 @@ header {
 
 .footlogo {
     width: 80px;  
-    margin-right: 20px;
+    margin: 10px 20px 30px;
 }
 
 .foot-logo {
+    width: 60px;
     scale: 2;
-    margin-right: 25px;
+ 
+
 }
 
 .foot-lname {
     margin-right: 5px;
     margin-top: -3px;
+}
+
+.foot-content {
+    margin: 2px;
 }
 
 }
@@ -1325,8 +1348,10 @@ h1 {
  /*About us*/   
 
 .img4 {
-    max-width: 700px;
+    max-width: 90%;
     height: auto;
+    margin: auto;
+    background-image: url('/images/Other/greenjacket-medium.jpg'); 
 }
     
 .line1 {
@@ -1335,6 +1360,7 @@ h1 {
 
 .p1, .p2, .p3, .p4 {
     font-size: 2.5em;
+    margin: 40px;
 }
 
 .logo4 {
@@ -1352,29 +1378,29 @@ h1 {
     
 /*Women & Men*/    
    
-    .container1 {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 95%;
-    }
+.container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 95%;
+}
 
-    .shop {
-        width: 200px;
-    }
+.shop {
+    width: 200px;
+}
 
-    .shop p {
-        font-size: 18px;     
-        margin: 30px 20px 10px;
-    }
+.shop p {
+    font-size: 18px;     
+    margin: 30px 20px 10px;
+}
     
-    .shop span {
-        float: right;
-        font-size: 18px;
-    }
+.shop span {
+    float: right;
+    font-size: 18px;
+}
 
-    .bn {
-       width: 80%;
-    }
+.bn {
+    width: 80%;
+}
     
 .shop-image {
     width: 60%;
@@ -1385,9 +1411,9 @@ h1 {
     
 /*Contact*/
 
-    .name, .email, .phone {
-        width: 60%;   
-    }
+.name, .email, .phone {
+    width: 60%;   
+}
 
 
 /*Product*/
@@ -1409,156 +1435,169 @@ h1 {
     margin: 40px auto;
 }
 
-    .size {
-        scale: 2;
-    }
+.size-x {
+    scale: 1.7;
+}
 
 
 /*Checkout*/
     
-    .container6 {
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 500px;
-        height: 300px;
-        padding: 10px;
-        font-size: 24px;
-    }  
+.container6 {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    font-size: 24px;
+}  
 
-    .ch-text1, .ch-text2, .ch-st {
-        width: 250px;
-        font-size: 22px;
-    }
+.ch-text1, .ch-text2, .ch-st {
+    width: 250px;
+    font-size: 22px;
+}
     
-    .ch-img {
-        margin: 20px;
-        width: 180px;
-        height: auto;
-    }
+.ch-img {
+    margin: 20px;
+    width: 180px;
+    height: auto;
+}
 
-    .box3 h2, .box4 h3, .box5 h3 {
-        font-size: 1.2em;
-    }
+.box3 h2, .box4 h3, .box5 h3 {
+    font-size: 1.2em;
+}
 
-    .container7 input, .container8 input {
-        font-size: 20px;
-    }
+.container7 input, .container8 input {
+    font-size: 20px;
+}
 
-    .name1, .address1, .creditnr  {
-        width: 310px;
-    }
+.name1, .address1, .creditnr {
+    width: 310px;
+}
 
-    .city1, .code1 {
-        width: 140px;
-    }
+.city1, .code1 {
+    width: 140px;
+}
 
-    .mount, .year, .cvv {
-        width: 82px
-    }
+.mount, .year, .cvv {
+    width: 82px
+}
 
-    .ch-button {
-        width: 220px;
-        font-size: 24px;
-    }
+.ch-button {
+    width: 220px;
+    font-size: 24px;
+}
 
 
 /*Success*/
     
-    .success1 {
-        display: block;
-        width: 90%;
-        justify-content: center;
-        align-items: center;
-        color: #0A3641;
-        margin: auto;
-    }
+.success1 {
+    display: block;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    color: #0A3641;
+    margin: auto;
+}
     
-    .ty {
-        font-size: 4em;
-    }
+.ty {
+    font-size: 4em;
+}
     
-    .ty-p {
-        font-size: 2em;
-    }
+.ty-p {
+    font-size: 2em;
+}
     
-    .summary {
-        font-size: 1.5em;
-    }
+.summary {
+    font-size: 1.5em;
+}
     
-    .container9 {
-        display: flex;
-        width: 95%;
-        padding: 10px;
-    }
+.container9 {
+    display: flex;
+    width: 95%;
+    padding: 10px;
+}
     
-    .container9 img {
-        margin: auto;
-        justify-content: space-evenly;
-        margin-top: 20px;
-    }
+.container9 img {
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
     
-    .sum1, .sum2, .sum3 { 
-        display: block;
-        width: 33%;
-        margin: 0 10PX;
-        border: 1px solid #0A3641;
-        font-size: 1.2em;
-        margin-bottom: 20px;
-    }
+.sum1, .sum2, .sum3 { 
+    display: block;
+    width: 33%;
+    margin: 0 10PX;
+    border: 1px solid #0A3641;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
     
-    .sum1 p, .sum2 p, .sum3 p { 
-       text-align: center;
-       width: 90%;
-    }
+.sum1 p, .sum2 p, .sum3 p { 
+    text-align: center;
+    width: 90%;
+}
     
-    .returnbt {
-        margin-top: 40px;
-    }
+.returnbt {
+    margin-top: 40px;
+}
 
 
 /*My account*/
 
-    .ma-container {
-        display: flex;
-    }
+.ma-container {
+    display: flex;
+    margin: 0px 40px;
+}
 
-    .email-ma, .password-ma, .email-ma2 {
-        width: 70%;
-        font-weight: 900;
-    }
+.email-ma, .password-ma, .email-ma2 {
+    width: 70%;
+    font-weight: 900;
+}
 
-    .ma-p1, .ma-p2 {
-        font-size: 1.2em;
-    }
+.ma-p1, .ma-p2 {
+    font-size: 1.2em;
+}
+
+.ma-form2 {
+    margin-top: 115px;
+}
 
 
 /*Footer*/
 
-    .footer-x {
-        margin: 10px;
-    }
+.footer-x {
+    margin: 10px;
+}
 
-    .foot1 {
-        font-size: 1.8em;
-    }
+.foot1 {
+    font-size: 1.8em;
+}
 
-    .footlogo {
-        width: 100px;
-        margin-bottom: 20px; 
-        margin-right: 30px;
-    }
+.footlogo {
+    width: 100px;
+    margin-bottom: 20px; 
 
-    .foot-logo {
-        scale: 2.4;
-        margin-right: 40px;
-        padding: 10px;
-    }
+}
 
-    .foot-lname {
-        font-size: 1.3em;
-        margin-top: 2px;
-        margin-right: 20px;
-    }
+.foot-logo {
+    justify-content: right;
+    width: 80px;
+    scale: 2.4;
+    margin: auto;
+    margin-left: 30px;
+
+}
+
+.foot-lname {
+    font-size: 1.3em;
+    margin: 2px 20px;
+  
+}
+
+.foot-content {
+    margin: 2px;
+    padding: 2px;
+}
 
 
 }
@@ -1568,70 +1607,71 @@ h1 {
 
 /*All html*/
 
-    body{
-        width: 90%;
-    }
+body {
+    width: 95%;
+    margin: auto;
+
+}
     
-    h1 {
-        text-align: center;
-        font-size: 3em;
-    }
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
 
 
 /*Header*/ 
     
-    header {
-       display: grid;
-       grid-template-columns: auto auto;
-       grid-template-rows: 1fr auto;
-       margin-top: 40px;
-    }
+header {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: 1fr auto;
+   margin-top: 20px;
+}
     
-    .headlogo {
-        min-width: 180px;
-        height: auto;
-    }
+.headlogo {
+    min-width: 180px;
+    height: auto;
+}
 
-    .fa-solid {
-        scale: 1.3;
-        margin: 15px;
-    }
+.fa-solid {
+    scale: 1.3;
+    margin: 15px;
+}
 
-    .hide {
-        display: none;
-    } 
+.hide {
+    display: none;
+} 
     
-    .nav1 {
-        display: block;
-        position: absolute;  
-    }
+.nav1 {
+    display: block;
+    position: absolute;  
+}
 
-    .nav1 li {
-        display: inline;
-        border: none;
-        font-size: 1.5em; 
-    }
+.nav1 li {
+    display: inline;
+    border: none;
+    font-size: 1.5em; 
+}
 
-    .nav1 ul {
-        visibility: visible;
-        border: none;
-        margin-top: 50px;
-        width: auto;
-    }
+.nav1 ul {
+    visibility: visible;
+    border: none;
+    margin-top: 50px;
+    width: auto;
+}
     
-    .nav1 a {
-        margin-left: 15px; 
-        justify-content: space-evenly;
-    }
+.nav1 a {
+    margin-left: 15px; 
+    justify-content: space-evenly;
+}
 
-    .nav1 a:hover {
-        font-weight: 700;
-    }
+.nav1 a:hover {
+    font-weight: 700;
+}
 
 
 /*Index & Home*/
   
-
 .content-x ul{
     display: flex;
     flex-direction: row;
@@ -1697,8 +1737,6 @@ h1 {
 }
 
 
-
-
 /*Women & Men*/   
 
 .container1 {
@@ -1747,13 +1785,15 @@ h1 {
 
 /*About us*/
 
+.ab-content {
+    max-width: 100%;
+}
+
 .img4 {
-    display: flex;
+    display: block;
     max-width: 50%;
-    max-width: 750px;
-    flex-shrink: 2;
+    min-width: 300px;
     float: right;
-    height: auto;
     margin: 40px;
     background: #0A3641;
     box-shadow: 20px 20px 20px #0A3641;   
@@ -1789,72 +1829,102 @@ h1 {
 /*Product*/
 
 .flora1 {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     text-align: center;
+    font-size: 3em;
 }
 
 .linex {
-    display: none;
+    opacity: 10%;
+    height: 70px;
 }
 
 .style1 {
     display: flex;
-    margin: auto;
-    flex-wrap: nowrap;
+    margin: 50px auto;
+    flex-shrink: 2;
+    width: 100%;
 }
 
 .product1 {
     display: block;
-    min-width: 300px;
-    max-width: 600px;
-    margin-top: 50px;
+    width: 100%;
+    max-width: 350px;
+    align-items: center;
+    padding: 0px 40px 0px 0px;
+    margin: 0px 40px;
 }
 
 .price {
     display: block;
-    font-size: 40px;
+    font-size: 3em;
     font-weight: bold;
     text-align: center;
+    margin: 30px auto 250px;
+    letter-spacing: 0.5rem;
 }
 
 .props {
-    font-size: 2em;
-    text-align: left;
-    margin: 20px;
-    margin-left: 80px;
-    margin-bottom: 80px;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0px 40px;
+    margin: 0px 5px 20px
+}
+
+.props h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: -0.5em;
+
 }
        
 .atc li {
-    display: flex;
-    margin: 40px;
+    display: flex; 
+    justify-content: left; 
+    margin: 20px 80px;
 }    
 
-.atc a {  
-    display: block; 
-    font-size: 1.5em;
-    width: auto; 
-    height: auto;
+.atc a { 
+    font-size: 1em;
 }
 
 .atc {
-    min-width: 80%; 
+    min-width: 60%; 
     height: auto;
     text-align: center;  
+    justify-content: center;
+}
+
+.pro-b {
+    display: block;
+    width: 25%;
 }
 
 .size {
-    margin-top: 40px auto;
-    scale: 2.1;
+    display: flex;
+    margin-top: 40px 80px;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.size::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 120px;
+    float: right;
+    opacity: 30%;
+    background-color: #0A3641;
+    margin-top: -100px    
 }
 
 .size-x {
     border: 1px solid #0A3641;
     justify-content: center;
-    margin: 10px;
+    margin: 20px;
+    scale: 1.3;
 }
     
-   
 
 /*Contact*/
 
@@ -1893,15 +1963,17 @@ font-size: 24px;
 }
 
 .medialogo {
-    margin-top: 45px;
+    margin-top: 80px;
 }
 
 
- /*Checkout*/
+/*Checkout*/
  
 .content4 {
     display: grid;
     grid-template-columns: auto auto;
+    width: 1000px;
+    margin: auto;
 }
     
 .container6 {
@@ -1969,7 +2041,7 @@ font-size: 24px;
     
 .success1 {
     display: block;
-    width: 90%;
+    width: 70%;
     justify-content: center;
     align-items: center;
     color: #0A3641;
@@ -2023,15 +2095,25 @@ font-size: 24px;
     
 
 /*My account*/
+
+.ma-container {
+    margin: 0px 40px;
+}
+
+.ma-form h2 {
+    font-size: 2em;
+}
     
 .ma-form {
     display: block;
     border: 4px solid #0A3641;
     margin: 40px auto;
     padding: 10px 10px 30px;
-    width: 30%;
+    width: 500px;
     color: #0A3641;
     font-weight: 500;
+    font-size: 1.3em;
+
 }
 
 .ma-form2 {
@@ -2040,17 +2122,25 @@ font-size: 24px;
     color: #0A3641;
     border: 4px solid #0A3641;
     border-radius: 50px;
-    width: 80%;
+    min-width: 800px;
+    max-width: 1100px;
     justify-content: center;
     align-items: center;
+    font-size: 1.5em;
 }
 
 .ma-join {
-    width: 70%; 
+    max-width: 70%; 
+    font-size: 1.4rem;
+}
+
+.email-ma, .password-ma {
+    font-size: 0.8em;
 }
     
 .email-ma2 {
     width: 80%;
+    font-size: 0.8em;
 }
 
 .m-a-button {
@@ -2069,37 +2159,98 @@ footer {
     height: 250px;
 }
 
-    .footer-x {
-        width: 90%;
-        margin: 20px 40px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .foot1 {
-        font-size: 1.8em;
-        width: 30%;
-    }
-
-    .footlogo {
-       
-        width: 130px;
-        margin-bottom: 40px; 
-        margin-right: 20px;
-    }
-
-    .foot-logo {
-        scale: 2.8;
-        margin-left: 40px;
-    }
-
-    .foot-lname {
-        font-size: 1.6em;
-        margin-top: 10px;
-    }
-
-
-
-    
-
+.footer-x {
+    width: 90%;
+    margin: auto 40px;
+    justify-content: center;
+    margin-top: 20px;
 }
+    
+.foot1 {
+   
+    font-size: 1.8em;
+    width: 30%;
+}
+
+.footlogo {
+    width: 130px;
+    margin-bottom: 40px; 
+    margin-right: 20px;
+}
+
+.foot-logo {
+    scale: 2.8;
+    margin-left: 60px;
+}
+
+.foot-lname {
+    font-size: 1.6em;
+    margin-top: -80px;
+}
+}
+
+@media only screen and (min-width: 1800px) {
+
+body {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+ }
+
+ /*Header*/
+
+ header {
+    width: 90%;
+    margin: auto;
+ }
+
+ .fa-2x {
+    font-size: 2.4em;
+ }
+
+ .nav1 li { 
+    font-size: 2em;
+ }
+
+
+/*Index / Home*/
+
+.na-x2 {
+    max-width: 70%;
+}
+
+
+/*Success*/
+
+.success1 {
+    width: 70%;
+    margin: auto;
+}
+
+
+/*Footer*/
+
+.footline {
+    margin-bottom: 40px;
+}
+
+.footer-x {
+    width: 80%;
+    margin: auto;
+    font-size: 1em;
+}
+
+.footlogo {
+    width: 160px;
+}
+
+.foot-lname {
+    margin-top: -60px;
+}
+}
+
+
+
+
+    
+
