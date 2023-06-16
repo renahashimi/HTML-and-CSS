@@ -13,7 +13,6 @@ ul {
     margin: 0;
 }
 
-
 nav li {
     list-style: none;
     text-decoration: none;
@@ -262,20 +261,14 @@ label {
 }
 
 .p1 {
-    color: #0A3641;
-    margin: 20px;
-    line-height: 1.5em;
-    font-size: 1.5em;
-    font-style: italic;
     margin: 10px 20px;
 }
 
-.p2 {
+.p1, .p2 {
     color: #0A3641;
     margin: 20px;
     line-height: 1.5em;
     font-size: 1.5em;
-    font-style: italic;
 }
 
 .p3 {
@@ -392,7 +385,6 @@ label {
     text-align: center;
     font-weight: lighter;
 }
-
 
 .img1 {
     background-image: url('/images/Jacket/oxygen.jpg');
@@ -1015,7 +1007,6 @@ footer {
     scale: 1.4;
     float: right;
     margin: 10px;
-  
 }
 
 .foot-content {
@@ -1081,7 +1072,6 @@ header {
 }
     
 
-
 /*Index & Home*/  
     
 .women a, .men a {
@@ -1123,7 +1113,6 @@ header {
     background-image: url('/images/Other/greenjacket\ –\ medium.jpeg'); 
 }
     
-
 .p1, .p2 {
     font-size: 2em;
     margin-top: 30px;
@@ -1147,7 +1136,6 @@ header {
 
   
 /*Women & Men*/
-   
 
 .container1 {
     display: grid;
@@ -1189,7 +1177,6 @@ header {
 .foot-lname {
     font-size: 1.1em;
 }
-
 
 
 /*Product*/
@@ -1267,8 +1254,6 @@ header {
 .foot-logo {
     width: 60px;
     scale: 2;
- 
-
 }
 
 .foot-lname {
@@ -1284,7 +1269,7 @@ header {
 
 @media only screen and (min-width: 750px) and (max-width: 999px) {
 
- /*All html*/
+/*All html*/
 
 h1 {
     text-align: center;
@@ -1292,7 +1277,7 @@ h1 {
 }
 
 
- /*Header*/    
+/*Header*/    
 
 .headlogo {
     min-width: 140px ;
@@ -1313,7 +1298,7 @@ h1 {
 }
 
 
- /*Index & Home*/
+/*Index & Home*/
     
 .women a, .men a {
     font-size: 3.5em;
@@ -1345,10 +1330,10 @@ h1 {
 }
 
 
- /*About us*/   
+/*About us*/   
 
 .img4 {
-    max-width: 90%;
+    width: 800px;
     height: auto;
     margin: auto;
     background-image: url('/images/Other/greenjacket-medium.jpg'); 
@@ -1576,7 +1561,6 @@ h1 {
 .footlogo {
     width: 100px;
     margin-bottom: 20px; 
-
 }
 
 .foot-logo {
@@ -1585,20 +1569,17 @@ h1 {
     scale: 2.4;
     margin: auto;
     margin-left: 30px;
-
 }
 
 .foot-lname {
     font-size: 1.3em;
     margin: 2px 20px;
-  
 }
 
 .foot-content {
     margin: 2px;
     padding: 2px;
 }
-
 
 }
 
@@ -1610,7 +1591,6 @@ h1 {
 body {
     width: 95%;
     margin: auto;
-
 }
     
 h1 {
@@ -1787,6 +1767,7 @@ header {
 
 .ab-content {
     max-width: 100%;
+    margin: auto;
 }
 
 .img4 {
@@ -1875,7 +1856,6 @@ header {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     font-size: -0.5em;
-
 }
        
 .atc li {
@@ -1935,7 +1915,7 @@ header {
 }
 
 .container4 p, .shipping p, .logoname {
-font-size: 24px;
+    font-size: 24px;
 }
 
 .content4  {
@@ -2113,7 +2093,6 @@ font-size: 24px;
     color: #0A3641;
     font-weight: 500;
     font-size: 1.3em;
-
 }
 
 .ma-form2 {
@@ -2187,7 +2166,9 @@ footer {
     font-size: 1.6em;
     margin-top: -80px;
 }
+
 }
+
 
 @media only screen and (min-width: 1800px) {
 
@@ -2195,28 +2176,36 @@ body {
     width: 80%;
     height: 100vh;
     margin: auto;
- }
+}
 
- /*Header*/
+/*Header*/
 
- header {
+header {
     width: 90%;
     margin: auto;
- }
+}
 
- .fa-2x {
+.fa-2x {
     font-size: 2.4em;
- }
+}
 
- .nav1 li { 
+.nav1 li { 
     font-size: 2em;
- }
+}
 
 
-/*Index / Home*/
+/*Index - Home*/
 
 .na-x2 {
     max-width: 70%;
+}
+
+
+/*About us*/
+
+.ab-content {
+    max-width: 90%;
+    margin: auto;
 }
 
 
