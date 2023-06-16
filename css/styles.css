@@ -87,15 +87,19 @@ header {
     font-weight: bold;
 }
 
+.nav1 {
+    margin: 40px 15px;
+}
+
 .nav1 li {
-    font-size: 1em;
     border: 1px solid #0A3641;
     width: 150px;
 }
 
 .nav1 a {
-    color: #0A3641;   
-    margin: 10px 15px;
+    font-size: 2em;
+    color: #0A3641;  
+    padding: 0px 10px; 
 }
 
 .nav1 ul {
