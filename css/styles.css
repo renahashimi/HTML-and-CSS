@@ -127,7 +127,7 @@ label {
 }
 
 .content-x {
-    display: flex;
+    display: block;
     margin: auto; 
     justify-content: center;
 }
@@ -144,9 +144,6 @@ label {
     border: 3px solid #0A3641;
 }   
 
-.content-x {
-    display: block;
-}
 
 .women, .men {
     display: block;
