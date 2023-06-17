@@ -89,17 +89,18 @@ header {
 
 .nav2 {
     display: flex;
-    width: 152px;
     flex-direction: column;
-    background-color: #fff;
-    margin-left:  20px;
+    margin-left: 15px;
 }
 
-.nav1 a {
-    font-size: 1.2em;
+.nav2 a {
+    font-size: 1.3em;
     color: #0A3641; 
-    margin 10px;
-    padding: 4px 4px;
+    margin-left: 10px;
+    width: 150px;
+    background-color: #fff;
+    padding: 2px;
+    padding-left: 20px;
     border: 1px solid #0A3641; 
 }
 
@@ -1070,7 +1071,7 @@ header {
     width: 180px;
 }
 
-.nav1 li  {
+.nav2 a {
     font-size: 1.5em;
     width: 180px;
 }
@@ -1287,17 +1288,14 @@ h1 {
     min-width: 140px ;
     height: auto;
 }
-    
-.nav1 a {
-    font-size: 2em;
-}
+
 
 #menu-chechbox:checked ~ nav {
     width: 200px;
 }
 
-.nav1 li  {
-    font-size: 1em;
+.nav2 a {
+    font-size: 1.4em;
     width: 200px;
 }
 
@@ -1628,28 +1626,31 @@ header {
     
 .nav1 {
     display: block;
-    position: absolute;  
-}
-
-.nav1 li {
-    display: inline;
-    border: none;
-    font-size: 1.5em; 
-}
-
-.nav1 ul {
+    position: absolute;
     visibility: visible;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    
     border: none;
-    margin-top: 50px;
-    width: auto;
+    margin-top: 40px;
+    width: auto;margin-left: 15px; 
 }
     
-.nav1 a {
-    margin-left: 15px; 
-    justify-content: space-evenly;
+.nav2 a {
+    display: inline-flex;
+    border: none;
+    font-size: 2em; 
+    margin: auto;
+    padding: 2px;
+    justify-content: space-evenly;visibility: visible;
 }
 
-.nav1 a:hover {
+
+
+.nav2 a:hover {
     font-weight: 700;
 }
 
