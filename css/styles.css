@@ -127,7 +127,7 @@ label {
 }
 
 .content-x {
-    display: block;
+    display: flex;
     margin: auto; 
     justify-content: center;
 }
@@ -144,30 +144,27 @@ label {
     border: 3px solid #0A3641;
 }   
 
-
 .women, .men {
-    display: block;
-    font-size: 2em;
-    padding: 40px 0px;
-    
-    width: 250px;
+    display: flex;
     border: 5px solid #fff;
     box-sizing: border-box;
+    color: #0A3641;
     margin: 15px 0;
     letter-spacing: 0.3em;
-    
-    text-align: center;
-    font-weight: bold;    
-    color: #fff;
-    -webkit-text-fill-color: #fff;
-    -webkit-text-stroke-width: 3px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }   
 
 .women a, .men a {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
+    font-size: 2.5em;
+    padding: 5px;
+    margin: 20px;
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 3px;
 }
+
 
 .sf p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
