@@ -647,7 +647,7 @@ form textarea {
 }
 
 
-/*Cart / Checkout*/
+/*Cart - Checkout*/
 
 .ch-name {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -733,6 +733,14 @@ form textarea {
     flex-shrink: 2;
     color: #0A3641;
     width: 100%;
+}
+
+.cform-l {
+    width: 100%;
+    margin: 0px;
+    margin-left: 10px;
+    padding: 0px;
+    
 }
 
 .name1, .address1 {
